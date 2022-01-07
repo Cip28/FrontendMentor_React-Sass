@@ -1,0 +1,106 @@
+@import "./Variables.scss";
+
+.card{
+    background-color: $TopBGLight;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:25px;
+    padding-bottom:20px;
+    text-align: center;
+    border-radius:7px;
+    font-family: $font;
+}
+
+.card h1{font-size:3rem;margin:0;}
+.social-infos{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0px;
+}
+.social-infos p{
+    font-size:.8rem;
+    font-weight: 600;
+    color:$Text2Light;
+}
+.followers{
+    font-size:1rem;
+    color:$Text1Light;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin:0;
+}
+.today{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size:.8rem;
+    margin-top:20px;
+}
+.today p{
+    margin-left:5px;
+}
+
+
+.card .fab{
+    font-size:1.5rem;
+    margin-right:10px;
+}
+
+.border-top{
+    height: 5px;
+     border-top-right-radius: 16px;
+      border-top-left-radius: 16px;
+}
+
+.fa-facebook-square{
+    color:$facebook !important;
+}
+.fa-twitter{color:$twitter!important;}
+.fa-instagram{
+    background-image:linear-gradient(to right, #fdc468, #df4996)!important;
+    color:transparent!important;
+    background-clip:text ;
+}
+.fab.fa-youtube{
+    border-radius:50%;
+    background-color: $youtube;
+    font-size:1rem;
+}
+
+
+.fa-sort-down{
+    margin-top:0;
+    margin-bottom:5px;
+    color:red;
+}
+.fa-sort-up{
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+
+.hoverClassColorLight:hover {
+    background-color:$CardBGLight !important;
+    cursor:pointer;
+    transition:all .3s;
+  }
+.hoverClassColorDark:hover {
+    background-color:$CardBGDark !important;
+    cursor:pointer;
+    transition:all .3s;
+  }
+  
+
+@media only screen and (min-width:1440px) {
+    .cards-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+        margin:1rem 9rem;
+    }
+  
+}
