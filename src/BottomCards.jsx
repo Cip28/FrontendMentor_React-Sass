@@ -5,8 +5,7 @@ import BottomCard from './BottomCard'
 export default function BottomCards(props) {
     
     const { overviews,state } = props;
-    const Text1Dark="hsl(228, 34%, 66%)";
-    const Text1Light = "hsl(228, 12%, 44%)";
+
 
     return (
         <section className='bottom-cards'>

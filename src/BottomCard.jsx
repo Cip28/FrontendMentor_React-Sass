@@ -14,7 +14,7 @@ export default function BottomCard(props) {
             style={{ backgroundColor: state ? 'hsl(225, 100%, 98%)' : 'hsl(232, 19%, 19%)' }}
         >
             <div className='overview-align'>
-                <p id="bottom-card-title" style={{color: state ? Text1Light : Text1Dark}}>{overview.title}</p>
+                <p className="bottom-card-title" style={{color: state ? Text1Light : Text1Dark}}>{overview.title}</p>
                 <i className={`fab fa-${overview.social}`} style={{color: state  ? 'white' : 'black'}}></i>
             </div>
             <div className='overview-align'>

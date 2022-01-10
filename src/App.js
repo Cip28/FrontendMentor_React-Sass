@@ -24,28 +24,27 @@ function App () {
   return (
     <div className='App'
       style={{
-        backgroundColor: state ? light : dark,
-
-      }}>
-  
+        backgroundColor: state ? light : dark
+      }}>  
       <div className='top-cards' style={{position:'absolute',zIndex:'1000', top:'0',width:'100%',backgroundColor:state ? light : dark }}>
           <Header 
             onChange={handleClick}
             state={state}
           />
-
+      <main>
             <TopCards
               profiles={profiles}
               state={state}
               style={{width:'100%'}}
-            
-            />
+              
+              />
           
           <BottomCards
             overviews={overviews}
             state={state}
             style={{width:'100%'}}
-          />
+            />
+        </main> 
       </div>
 
     </div>
