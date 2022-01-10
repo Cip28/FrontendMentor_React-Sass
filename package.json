@@ -1,8 +1,7 @@
 {
-  "homepage": "https://cip28.github.io/FrontendMentor_React-Sass_Dashboard",
+  "homepage": "https://cip28.github.io/FrontendMentor_React-Sass",
   "name": "frontend_mentor_react_dashboard",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -13,9 +12,12 @@
     "sass": "^1.45.2",
     "web-vitals": "^2.1.2"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d frontend_mentor_react_dashboard",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
