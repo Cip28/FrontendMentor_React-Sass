@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FrontendMentor_React-Sass/static/css/main.edc5c449.css",
+    "main.js": "/FrontendMentor_React-Sass/static/js/main.7f867462.js",
+    "static/js/787.ef4a56d3.chunk.js": "/FrontendMentor_React-Sass/static/js/787.ef4a56d3.chunk.js",
+    "index.html": "/FrontendMentor_React-Sass/index.html",
+    "main.edc5c449.css.map": "/FrontendMentor_React-Sass/static/css/main.edc5c449.css.map",
+    "main.7f867462.js.map": "/FrontendMentor_React-Sass/static/js/main.7f867462.js.map",
+    "787.ef4a56d3.chunk.js.map": "/FrontendMentor_React-Sass/static/js/787.ef4a56d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edc5c449.css",
+    "static/js/main.7f867462.js"
+  ]
+}
